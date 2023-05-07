@@ -23,7 +23,7 @@ WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['API_ID', '10162913'])
 API_HASH = environ['API_HASH', '7f3e8e035cc59e7d6f03d2d115ba22fa']
-BOT_TOKEN = environ['BOT_TOKEN', '']
+BOT_TOKEN = environ['BOT_TOKEN', '6166248733:AAHBwvgNdvdEnv4eJckJh_AhiFo4QeeJBRw']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -48,12 +48,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
-START_MESSAGE = environ.get('START_MESSAGE', '👋 𝙷𝙴𝙻𝙾 {user}\n\n𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {bot},\n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝚆𝙴𝙱-𝚂𝙴𝚁𝙸𝙴𝚂, 𝙺-𝙳𝚁𝙰𝙼𝙰, 𝙰𝙽𝙸𝙼𝙴, 𝙰𝙽𝙸𝙼𝙰𝚃𝙸𝙾𝙽,𝙴𝚃𝙲.𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽...')
+START_MESSAGE = environ.get('START_MESSAGE', '👋 𝙷𝙴𝙻𝙾 {user}\n\n𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {bot},\n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝚆𝙴𝙱-𝚂𝙴𝚁𝙸𝙴𝚂, 𝙺-𝙳𝚁𝙰𝙼𝙰, 𝙰𝙽𝙸𝙼𝙴, 𝙰𝙽𝙸𝙼𝙰𝚃𝙸𝙾𝙽, 𝙴𝚃𝙲.. 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽...')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!')
 RemoveBG_API = environ.get("RemoveBG_API", "")
-WELCOM_PIC = environ.get("WELCOM_PIC", "")
-WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hii {user}\nwelcome to {chat}")
+WELCOM_PIC = environ.get("WELCOM_PIC", "https://telegra.ph/file/b7cca2d0672b688ed7fe7.jpg")
+WELCOM_TEXT = environ.get("WELCOM_TEXT", "⚜Hey {user}, Welcome To HeroFlix • Group. You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation, etc., here....")
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
@@ -64,20 +64,20 @@ SHORT_API = environ.get("SHORT_API", "074d3e8853df750ffd3da0dce6fd8f229e1b13e3)
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001612070975'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'HeroPlixGroup')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 PM_IMDB = environ.get('PM_IMDB', "True")
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}\nUploaded by : @HeroPlix")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "{file_name}\nUploaded by : @HeroPlix")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb: Data by: @ShadowUpdates12 \n\n🏷 Tɪᴛʟᴇ : {title}\n🌟 Rᴀᴛɪɴɢ : {rating}/10\n🎭 Gᴇɴʀᴇs : {genres}\n📆 Rᴇʟᴇᴀsᴇ Iɴғᴏ : {year}\n⏰ Rᴜɴᴛɪᴍᴇ : {runtime}\n🎙️ Lᴀɴɢᴜᴀɢᴇs : {languages}\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ\n\n💛 Pʟᴇᴀsᴇ Sᴜᴘᴘᴏʀᴛ Us 💛\n\n⚠️ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ᴀғᴛᴇʀ 5 ᴍɪɴᴜᴛᴇs")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}\n🌟Main Channel › @HeroPlix\n🌟Group › @HeroPlixGroup")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "{file_name}\n🌟Main Channel › @HeroPlix\n🌟Group › @HeroPlixGroup")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb: Data by: @HeroPlix \n\n🏷 Tɪᴛʟᴇ : {title}\n🌟 Rᴀᴛɪɴɢ : {rating}/10\n🎭 Gᴇɴʀᴇs : {genres}\n📆 Rᴇʟᴇᴀsᴇ Iɴғᴏ : {year}\n⏰ Rᴜɴᴛɪᴍᴇ : {runtime}\n🎙️ Lᴀɴɢᴜᴀɢᴇs : {languages}\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ\n\n💛 Pʟᴇᴀsᴇ Sᴜᴘᴘᴏʀᴛ Us 💛\n\n⚠️ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ᴀғᴛᴇʀ 5 ᴍɪɴᴜᴛᴇs")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001877432981')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
